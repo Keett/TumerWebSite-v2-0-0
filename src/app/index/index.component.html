@@ -6,7 +6,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p><img src="../assets/images/index/500x130b.png"></p>
+                        <p><img src="../../assets/images/index/500x130b.png"></p>
                         <a class="btn btn-lg btn-circle btn-light" href="#yeteneklerimizCozumlerimiz">YETENEKLERiMiZ &
                             ÇÖZÜMLERiMiZ</a>
                         <a class="btn btn-lg btn-circle btn-outline-light" href="#hakkimizda">Hakkımızda</a>
@@ -36,15 +36,15 @@
                     <div class="col-md-3 post-item" *ngFor="let calismaAlani of calismaAlanlari">
                         <!-- Post-->
                         <article class="post">
-                            <div class="post-preview"><a routerLink="{{calismaAlani.item_link}}"><img
-                                        src={{calismaAlani.item_img}} alt=""></a></div>
+                            <div class="post-preview"><a routerLink= {{calismaAlani.item_link}}><img
+                                        src= {{calismaAlani.item_img}} alt=""></a></div>
                             <div class="post-wrapper">
                                 <div class="post-header">
-                                    <h2 class="post-title"><a routerLink="{{calismaAlani.item_link}}"><b>{{calismaAlani.item_title}}</b></a></h2>
+                                    <h2 class="post-title"><a routerLink= {{calismaAlani.item_link}}><b>{{calismaAlani.item_title}}</b></a></h2>
                                 </div>
                                 <div class="post-content">
                                     <p>{{calismaAlani.item_content}}</p>
-                                    <p><a routerLink="{{calismaAlani.item_link}}">Daha Fazla</a></p>
+                                    <p><a routerLink= {{calismaAlani.item_link}}>Daha Fazla</a></p>
                                 </div>
                             </div>
                         </article>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-10 m-auto">
-                        <p><img src="assets/images/index/LogoAbout.png">
+                        <p><img src="../../assets/images/index/LogoAbout.png">
                         </p>
                     </div>
                 </div>
