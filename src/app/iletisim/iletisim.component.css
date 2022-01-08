@@ -1,0 +1,15 @@
+.maps-container {
+    height: 500px;
+}
+
+.maps-container.map-widget {
+    height: 500px;
+}
+.map {
+    height: 100% !important;
+    width: 100%;
+}
+
+.map:before {
+    display: none;
+}

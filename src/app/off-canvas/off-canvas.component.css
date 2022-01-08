@@ -1,0 +1,119 @@
+.off-canvas-sidebar {
+    transition: transform .2s cubic-bezier(.645, .045, .355, 1);
+}
+
+.off-canvas-sidebar-wrapper {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 40px;
+    height: 100%;
+    width: auto;
+}
+
+.off-canvas-header {
+    text-align: right;
+    font-size: .75rem;
+    margin-bottom: 60px;
+}
+
+.off-canvas-sidebar {
+    position: fixed;
+    background: #001533;
+    height: 100%;
+    width: 400px;
+    right: -400px;
+    z-index: 9999;
+    top: 0;
+}
+
+.off-canvas-sidebar h1,
+.off-canvas-sidebar .h1,
+.off-canvas-sidebar h2,
+.off-canvas-sidebar .h2,
+.off-canvas-sidebar h3,
+.off-canvas-sidebar .h3,
+.off-canvas-sidebar h4,
+.off-canvas-sidebar .h4,
+.off-canvas-sidebar h5,
+.off-canvas-sidebar .h5,
+.off-canvas-sidebar h6,
+.off-canvas-sidebar .h6 {
+    color: #fff;
+}
+
+.off-canvas-sidebar a,
+.off-canvas-sidebar .social-icons > li > a {
+    color: #cecece;
+}
+
+.off-canvas-sidebar a:hover,
+.off-canvas-sidebar a:focus,
+.off-canvas-sidebar .social-icons > li > a:hover,
+.off-canvas-sidebar .social-icons > li > a:focus {
+    color: #f4f4f4;
+}
+
+.accordion {
+    overflow: hidden;
+    border-radius: 0;
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-bottom: 1rem;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-item-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.accordion-item-header h6 {
+    margin: 0;
+}
+
+.accordion-item-header h6 a {
+    position: relative;
+    display: block;
+    color: #222;
+}
+
+.accordion-item-header h6 a::after {
+    position: absolute;
+    font-family: Font Awesome\ 5 Free;
+    line-height: 1.8;
+    font-weight: 900;
+    font-size: .625rem;
+    content: "\f068";
+    right: 0;
+    top: 0;
+}
+
+.accordion-item-header h6 a.collapsed::after {
+    content: "\f067";
+}
+
+.accordion-item-body {
+    padding: 20px 20px 0;
+}
+
+.accordion-item-body > *:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-item-body li{
+    list-style-type:square;
+}
+
+.accordion-light .accordion-item-header {
+    background: #f8f9fa;
+}
+
+.accordion-light .accordion-item-header h6 a {
+    color: #212529;
+}

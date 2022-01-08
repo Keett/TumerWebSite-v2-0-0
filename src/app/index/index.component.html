@@ -1,0 +1,355 @@
+<body>
+    <div class="wrapper">
+        <!-- Hero-->
+        <section class="module-cover parallax text-center" data-background="../../assets/images/module-2.jpg"
+            data-jarallax-video="mp4:../../assets/video/video3.mp4" data-overlay="0.3" data-gradient="0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p><img src="../assets/images/index/500x130b.png"></p>
+                        <a class="btn btn-lg btn-circle btn-light" href="#yeteneklerimizCozumlerimiz">YETENEKLERiMiZ &
+                            ÇÖZÜMLERiMiZ</a>
+                        <a class="btn btn-lg btn-circle btn-outline-light" href="#hakkimizda">Hakkımızda</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero end-->>
+
+        <!-- Çalışma Alanları Alternatif-->
+        <section class="module" id="calismaAlanlari">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 m-auto text-center">
+                        <h1 class="h-design">Çalışma Alanları</h1>
+                        <p class="lead">Şirketimizin başlıca çalışma alanları; Savunma Sanayi, Elektronik, Yazılım,
+                            Mekanik, Aviyonik Test Sistemleri, Mekatronik, Spor Mühendisliği ve Havacılık Komponentleri
+                            Onarım ve Tedariğidir.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="space" data-MY="60px"></div>
+                    </div>
+                </div>
+                <div class="row row-post-masonry">
+                    <div class="col-md-3 post-item" *ngFor="let calismaAlani of calismaAlanlari">
+                        <!-- Post-->
+                        <article class="post">
+                            <div class="post-preview"><a routerLink="{{calismaAlani.item_link}}"><img
+                                        src={{calismaAlani.item_img}} alt=""></a></div>
+                            <div class="post-wrapper">
+                                <div class="post-header">
+                                    <h2 class="post-title"><a routerLink="{{calismaAlani.item_link}}"><b>{{calismaAlani.item_title}}</b></a></h2>
+                                </div>
+                                <div class="post-content">
+                                    <p>{{calismaAlani.item_content}}</p>
+                                    <p><a routerLink="{{calismaAlani.item_link}}">Daha Fazla</a></p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Post end-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About-->
+        <section class="module divider-bottom bg-gray" id="hakkimizda">
+            <div class="container-center">
+                <div class="row">
+                    <div class="col-md-6 m-auto text-center">
+                        <h1 class="h-design">NEDEN TÜMER?</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="space" data-MY="5px"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 m-auto">
+                        <p><img src="assets/images/index/LogoAbout.png">
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="space" data-mY="5px"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="icon-box text-center">
+                            <div class="icon-box-icon" style="color:#001533;"><span class="ti-cup"></span></div>
+                            <div class="icon-box-title">
+                                <h5><b>Uzmanlık</b></h5>
+                            </div>
+                            <div class="icon-box-content">
+                                <p>Gereksinim odaklı sistem modelleme, simülasyon, kontrol algoritma tasarımları
+                                    kullanarak model tabanlı sistem mühendisliği proses modeli süreçlerine uyumlu
+                                    bilgisayar destekli tasarım ve analiz hizmeti sağlamaktadır.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="icon-box text-center">
+                            <div class="icon-box-icon" style="color:#001533;"><span class="ti-layout"></span></div>
+                            <div class="icon-box-title">
+                                <h5><b>Hızlı Çözüm</b></h5>
+                            </div>
+                            <div class="icon-box-content">
+                                <p>Tümer 30 yılı aşan deneyim ve birikimini uzman mühendis ve danışman ekipleri ile
+                                    harmanlayarak müşterilerinin mühendislik ihtiyaçlarını, hızlı ve çözüm odaklı bir
+                                    şekilde karşılar.</p>
+                            </div>
+                            <!-- 
+                <div class="icon-box-link"><a href="#" style="color:#aa0202;">Read more</a></div>
+                -->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="icon-box text-center">
+                            <div class="icon-box-icon" style="color:#001533;"><span class="ti-harddrives"></span></div>
+                            <div class="icon-box-title">
+                                <h5><b>Deneyim</b></h5>
+                            </div>
+                            <div class="icon-box-content">
+                                <p>1991 yılında kurulan Tümer, kurulduğu günden beri gerçekleştirdiği projelerden elde
+                                    ettiği deneyimleri yeni projelerinde de kullanarak mükemmele ulaşma hedefine ulaşmak
+                                    için çalışmaktadır.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="icon-box text-center">
+                            <div class="icon-box-icon" style="color:#001533;"><span class="ti-image"></span></div>
+                            <div class="icon-box-title">
+                                <h5><b>Kalite</b></h5>
+                            </div>
+                            <div class="icon-box-content">
+                                <p>Tümer’in Kalite politikası; Müşterinin ürün ve hizmetlerle ilgili beklentilerini her
+                                    zaman yerine getirmek veya bu beklentilerin üzerine çıkmaktır. Bunun için de
+                                    mevzuattaki asgari standartları aşan ürün ve teknolojilerin geliştirilmesi için
+                                    çalışır.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About end-->
+
+        <!-- Yeteneklerimiz & Çözümlerimiz-->
+        <div class="homeProduct homeproductRes" id="yeteneklerimizCozumlerimiz">
+            <div class="contents">
+                <div class="col-md-12 m-auto text-center">
+                    <h1 class="h-design">Yeteneklerimiz & Çözümlerimiz</h1>
+                    <p class="lead">Şirketimize ait öne çıkan ürün ve hizmetlerimiz</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="space" data-MY="50px"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemLeft">
+                    <div class="row">
+                        <div class="prMbSlide">
+                            <div class="item">
+                                <a href="YeteneklerimizÇözümlerimiz/MekatronikTasarim.html">
+                                    <div class="img">
+                                        <img src="assets/images/index/HariciYakitTankiPozisyonTestSistemi.jpg" alt="">
+                                        <div class="name">Mekatronik Tasarım</div>
+                                    </div>
+                                    <span class="bottom">
+                                        <div class="title">T129 Atak Helikopteri Harici Yakıt Tankı Pozisyon Test
+                                            Sistemi</div>
+                                        <!-- <div class="desc">....</div> -->
+                                        <div class="bottom0">
+                                            <div class="link">Devamını Oku</div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="YeteneklerimizÇözümlerimiz/ElektronikTasarim.html">
+                                    <div class="img">
+                                        <img src="assets/images/index/FonksiyonelCDUÜnitesiBirimi.jpg" alt="">
+                                        <div class="name">Elektronik Tasarım</div>
+                                    </div>
+                                    <span class="bottom">
+                                        <div class="title">T129 Atak Helikopteri<br>Fonksiyonel CDU Ünitesi Birimi</div>
+                                        <!-- <div class="desc">....</div> -->
+                                        <div class="bottom0">
+                                            <div class="link">Devamını Oku</div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="YeteneklerimizÇözümlerimiz/MekanikTasarim.html">
+                                    <div class="img">
+                                        <img src="assets/images/index/Safety Switch Birimi.jpg" alt="">
+                                        <div class="name">Mekanik Tasarım</div>
+                                    </div>
+                                    <span class="bottom">
+                                        <div class="title">T129 Atak Helikopteri<br>Safety Switch Birimi</div>
+                                        <!-- <div class="desc">....</div> -->
+                                        <div class="bottom0">
+                                            <div class="link">Devamını Oku</div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="YeteneklerimizÇözümlerimiz/SavunmaSanayi/SimulatorSistemleri.html">
+                                    <div class="img">
+                                        <img src="assets/images/index/DRT.jpg" alt="">
+                                        <div class="name">Simülatör Sistemleri</div>
+                                    </div>
+                                    <span class="bottom">
+                                        <div class="title">Dikey Rüzgar Tüneli Kontrol ve Görüntü<br>Kayıt Sistemi,
+                                            Donanım
+                                            ve Yazılımları</div>
+                                        <!-- <div class="desc">....</div> -->
+                                        <div class="bottom0">
+                                            <div class="link">Devamını Oku</div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="YeteneklerimizÇözümlerimiz/AviyonikTestSistemleri.html">
+                                    <div class="img">
+                                        <img src="assets/images/index/FCM9130.jpg" alt="">
+                                        <div class="name">Aviyonik Test Sistemleri</div>
+                                    </div>
+                                    <span class="bottom">
+                                        <div class="title">Airbus FCM9130 Series<br>Flush Control Module Test
+                                            System</div>
+                                        <!-- <div class="desc">....</div> -->
+                                        <div class="bottom0">
+                                            <div class="link">Devamını Oku</div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="YeteneklerimizÇözümlerimiz/SavunmaSanayi/SimulatorSistemleri.html">
+                                    <div class="img">
+                                        <img src="assets/images/index/Helsim.jpg" alt="">
+                                        <div class="name">Simülatör Sistemleri</div>
+                                    </div>
+                                    <span class="bottom">
+                                        <div class="title">HELSİM Güç Dağıtım Sistemi ve Köprü<br> Donanım ve
+                                            Yazılımları
+                                        </div>
+                                        <!-- <div class="desc">....</div> -->
+                                        <div class="bottom0">
+                                            <div class="link">Devamını Oku</div>
+                                        </div>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Yeteneklerimiz & Çözümlerimiz end-->
+
+        <!-- Referans-->
+        <section class="module bg-gray p-t-0 p-b-40">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" data-MY="50px"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 m-auto text-center">
+                        <h1 class="h-design">Referanslar</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="space" data-MY="5px"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 m-auto">
+                        <div class="owl-carousel clients-carousel">
+                            <div class="client"><img src="assets/images/index/Referans/ard.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="ARD"></div>
+                            <div class="client"><img src="assets/images/index/Referans/aselsan.png"
+                                    data-toggle="tooltip" data-placement="bottom" title="ASELSAN A.Ş."></div>
+                            <div class="client"><img src="assets/images/index/Referans/ayyaz.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="AY YAZILIM"></div>
+                            <div class="client"><img src="assets/images/index/Referans/bosch.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="BOSCH"></div>
+                            <div class="client"><img src="assets/images/index/Referans/chicago.png"
+                                    data-toggle="tooltip" data-placement="bottom" title="CHICAGO BULLS"></div>
+                            <div class="client"><img src="assets/images/index/Referans/dynamic.png"
+                                    data-toggle="tooltip" data-placement="bottom" title="DYNAMIC"></div>
+                            <div class="client"><img src="assets/images/index/Referans/emekboru.png"
+                                    data-toggle="tooltip" data-placement="bottom"
+                                    title="EMEK BORU MAKiNA SANAYi VE TiCARET A.Ş."></div>
+                            <div class="client"><img src="assets/images/index/Referans/genkur.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TÜRK SiLAHLI KUVVETLERi GENELKURMAY BAŞKANLIĞI">
+                            </div>
+                            <div class="client"><img src="assets/images/index/Referans/ghf.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="GEOWF"></div>
+                            <div class="client"><img src="assets/images/index/Referans/hacettepe.png"
+                                    data-toggle="tooltip" data-placement="bottom" title="HACETTEPE ÜNiVERSiTESi"></div>
+                            <div class="client"><img src="assets/images/index/Referans/havelsan.png"
+                                    data-toggle="tooltip" data-placement="bottom" title="HAVELSAN A.Ş."></div>
+                            <div class="client"><img src="assets/images/index/Referans/hit.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="HIGH INTENSITY TRAINING CENTERS"></div>
+                            <div class="client"><img src="assets/images/index/Referans/kho.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="KARA HARP OKULU"></div>
+                            <div class="client"><img src="assets/images/index/Referans/kktc.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="KUZEY KIBRIS ATLETiK FEDERASYONU"></div>
+                            <div class="client"><img src="assets/images/index/Referans/nurol.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="NUROL MAKiNA VE SANAYi A.Ş."></div>
+                            <div class="client"><img src="assets/images/index/Referans/park logo.png"
+                                    data-toggle="tooltip" data-placement="bottom"
+                                    title="PARK KENT MOBiLYALARI iNŞ. PAZ. SAN. VE TiC. A.Ş."></div>
+                            <div class="client"><img src="assets/images/index/Referans/proted.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="PROTED PROSTHETICS & ORTHOTICS"></div>
+                            <div class="client"><img src="assets/images/index/Referans/halter.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TÜRKiYE HALTER FEDERASYONU"></div>
+                            <div class="client"><img src="assets/images/index/Referans/snk.png" data-toggle="tooltip"
+                                    data-placement="bottom"
+                                    title="STM SAVUNMA TEKNOLOJiLERi MÜHENDiSLiK VE TiCARET A.Ş.">
+                            </div>
+                            <div class="client"><img src="assets/images/index/Referans/stm.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="ORTA DOĞU TEKNiK ÜNiVERSiTESi"></div>
+                            <div class="client"><img src="assets/images/index/Referans/tai.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TÜRK HAVACILIK UZAY SANAYi"></div>
+                            <div class="client"><img src="assets/images/index/Referans/tarti.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TARTI"></div>
+                            <div class="client"><img src="assets/images/index/Referans/tbf.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TÜRKiYE BASKETBOL FEDERASYONU"></div>
+                            <div class="client"><img src="assets/images/index/Referans/tdk.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TÜRK DENiZ KUVVETLERi"></div>
+                            <div class="client"><img src="assets/images/index/Referans/tff.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TÜRKiYE FUTBOL FEDERASYONU"></div>
+                            <div class="client"><img src="assets/images/index/Referans/thy.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TURKISH TECHNIC"></div>
+                            <div class="client"><img src="assets/images/index/Referans/tof.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TÜRKiYE OKÇULUK FEDERASYONU"></div>
+                            <div class="client"><img src="assets/images/index/Referans/tvf.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="TÜRKiYE VOLEYBOL FEDERASYONU"></div>
+                            <div class="client"><img src="assets/images/index/Referans/ucla.png" data-toggle="tooltip"
+                                    data-placement="bottom" title="UCLA"></div>
+                            <div class="client"><img src="assets/images/index/Referans/wingate.png"
+                                    data-toggle="tooltip" data-placement="bottom"
+                                    title="מכון וינגייט WINGATE INSTITUTE"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients end-->
+    </div>
+</body>

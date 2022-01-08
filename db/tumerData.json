@@ -1,0 +1,60 @@
+{
+  "calismaAlanlari":[
+    {
+      "id": 1,
+      "item_link": "/SavunmaSanayi",
+      "item_img": "../../assets/images/index/CalismaAlanlari/DefenseIndustry.png",
+      "item_title":"SavunmaSanayi",
+      "item_content":"Tümer Mühendislik özellikle simülatörler için güç dağıtım, kontrol ve izleme sistemleri, elektromekanik arayüzler, mokap için fonksiyonel, elektronik ve elektromekanik donanımlar, konsol tasarımları, ATAK Helikopteri test ve alt sistemleri konuları ile ilgili birçok projeyi gerçekleştirmiştir."
+    },
+    {
+      "id": 2,
+      "item_link": "/YeteneklerimizCozumlerimiz/ElektronikTasarim",
+      "item_img": "../../assets/images/index/CalismaAlanlari/elektronik tasarım.png",
+      "item_title":"ElektronikTasarim",
+      "item_content":"Tümer Mühendislik özel tasarım mikroişlemci esaslı devre tasarımı ve üretimi konularında çalışmaktadır. Müşterinin isterleri doğrultusunda her türlü cihaz için prototip seviyesinde devre tasarımı, devre analizi, PCB tasarımı, SMD montaj, mekanik tasarım, prototip üretimi ve testlerini gerçekleştirme kabiliyetine sahiptir."
+    },
+    {
+      "id": 3,
+      "item_link": "/Yazilim",
+      "item_img": "../../assets/images/index/CalismaAlanlari/Software.png",
+      "item_title":"Yazılım",
+      "item_content":""
+    },
+    {
+      "id": 4,
+      "item_link": "/MekanikTasarim",
+      "item_img": "../../assets/images/index/CalismaAlanlari/Mekanik.png",
+      "item_title":"Mekanik Tasarım",
+      "item_content":"Bir fikrin, ilgili standartlara uygun, isterleri karşılayan fonksiyonlara sahip, hatta standartların ötesinde teknik ve fonksiyonel özellikleri içeren, en ekonomik proseslerle üretilebilen ve kolay servis verilebilir bir tasarımının 3 boyutlu modelleme yazılımı ile aşamalarını gerçekleştirmektedir."
+    },
+    {
+      "id": 5,
+      "item_link": "/AviyonikTestSistemleri",
+      "item_img": "../../assets/images/index/CalismaAlanlari/AvionicTestSystems.png",
+      "item_title":"Aviyonik Test Sistemleri",
+      "item_content":"Tümer Mühendislik sivil havacılıkta kullanılmakta olan AIRBUS ve BOEING marka uçakların çeşitli komponentlerinin atölye seviyesinde testlerini gerçekleştiren test sistemleri tasarlamakta ve üretmektedir."
+    },
+    {
+      "id": 6,
+      "item_link": "/MekatronikTasarim",
+      "item_img": "../../assets/images/index/CalismaAlanlari/MecatronicDesing.png",
+      "item_title":"Mekatronik Tasarım",
+      "item_content":"30 yılı aşan Elektronik ve Mekanik tasarım konularındaki deneyimlerini birleştirerek, mekanik ve elektronik bileşenlerden oluşan, veri algılayıcıları ile toplamış olduğu verileri kontrol donanımları ve hafızasındaki yazılımlar sayesinde yorumlayan cihaz ve sistemler tasarımları gerçekleştirilmektedir."
+    },
+    {
+      "id": 7,
+      "item_link": "/SporMuhendisligi",
+      "item_img": "../../assets/images/index/CalismaAlanlari/SportEngineering.png",
+      "item_title":"Spor Mühendisliği",
+      "item_content":"1994 yılından itibaren Spor Bilimleri teknolojilerine yönelik elektronik cihaz tasarım ve üretim çalışmalarına başlamıştır. Hâlihazırda Türkiye’nin konusundaki ilk ve tek üreticisi ve ihracatçısı konumundadır."
+    },
+    {
+      "id": 8,
+      "item_link": "/HavacilikKomponentleriOnarimVeTedarik",
+      "item_img": "../../assets/images/index/CalismaAlanlari/havacilikKomponentleri.png",
+      "item_title":"Havacılık Komponentleri Onarım ve Tedarik",
+      "item_content":"Tümer Mühendislik sabit ve döner kanatlı sistemlere ait yeni parça tedariki ve arızalı veya bakım zamanı gelmiş parçaların bakım/onarımı konusunda dünya çapında sahip olduğu network ile hızlı ve güvenilir çözümler sunmaktadır. Tümer Mühendislik gerek tedarik gerekse bakım/onarım seviyesinde gerçekleştirmiş olduğu hizmetler ile ilgili gerekli üretici uygunluk belgelerini sistemler ile birlikte vermektedir."
+    }
+  ]
+}
