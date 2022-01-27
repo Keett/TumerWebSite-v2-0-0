@@ -56,5 +56,227 @@
       "item_title":"Havacılık Komponentleri Onarım ve Tedarik",
       "item_content":"Tümer Mühendislik sabit ve döner kanatlı sistemlere ait yeni parça tedariki ve arızalı veya bakım zamanı gelmiş parçaların bakım/onarımı konusunda dünya çapında sahip olduğu network ile hızlı ve güvenilir çözümler sunmaktadır. Tümer Mühendislik gerek tedarik gerekse bakım/onarım seviyesinde gerçekleştirmiş olduğu hizmetler ile ilgili gerekli üretici uygunluk belgelerini sistemler ile birlikte vermektedir."
     }
+  ],
+  "aboutData":[
+    {
+      "id":1,
+      "about_span":"ti-cup",
+      "about_title":"Uzmanlık",
+      "about_content":"Gereksinim odaklı sistem modelleme, simülasyon, kontrol algoritma tasarımları kullanarak model tabanlı sistem mühendisliği proses modeli süreçlerine uyumlu bilgisayar destekli tasarım ve analiz hizmeti sağlamaktadır."
+    },
+    {
+      "id":2,
+      "about_span":"ti-layout",
+      "about_title":"Hızlı Çözüm",
+      "about_content":"Tümer 30 yılı aşan deneyim ve birikimini uzman mühendis ve danışman ekipleri ile harmanlayarak müşterilerinin mühendislik ihtiyaçlarını, hızlı ve çözüm odaklı bir şekilde karşılar."
+    },
+    {
+      "id":3,
+      "about_span":"ti-harddrives",
+      "about_title":"Deneyim",
+      "about_content":"1991 yılında kurulan Tümer, kurulduğu günden beri gerçekleştirdiği projelerden elde ettiği deneyimleri yeni projelerinde de kullanarak mükemmele ulaşma hedefine ulaşmak için çalışmaktadır."
+    },
+    {
+      "id":4,
+      "about_span":"ti-image",
+      "about_title":"Kalite",
+      "about_content":"Tümer’in Kalite politikası; Müşterinin ürün ve hizmetlerle ilgili beklentilerini her zaman yerine getirmek veya bu beklentilerin üzerine çıkmaktır. Bunun için de mevzuattaki asgari standartları aşan ürün ve teknolojilerin geliştirilmesi için çalışır."
+    }
+  ],
+  "talentSolutions":[
+    {
+      "id":1,
+      "item_link":"/MekatronikTasarim",
+      "item_img":"../../assets/images/index/HariciYakitTankiPozisyonTestSistemi.jpg",
+      "item_tag":"Mekatronik Tasarım",
+      "item_title":"T129 Atak Helikopteri Harici Yakıt Tankı Pozisyon Test Sistemi"
+    },
+    {
+      "id":2,
+      "item_link":"/ElektronikTasarim",
+      "item_img":"../../assets/images/index/FonksiyonelCDUÜnitesiBirimi.jpg",
+      "item_tag":"Elektronik Tasarım",
+      "item_title":"T129 Atak Helikopteri Fonksiyonel CDU Ünitesi Birimi"
+    },
+    {
+      "id":3,
+      "item_link":"/MekanikTasarim",
+      "item_img":"../../assets/images/index/Safety Switch Birimi.jpg",
+      "item_tag":"Mekanik Tasarım",
+      "item_title":"T129 Atak Helikopteri Safety Switch Birimi"
+    },
+    {
+      "id":4,
+      "item_link":"/SimulatorSistemleri",
+      "item_img":"../../assets/images/index/DRT.jpg",
+      "item_tag":"Simülatör Sistemleri",
+      "item_title":"Dikey Rüzgar Tüneli Kontrol ve Görüntü Kayıt Sistemi, Donanım ve Yazılımları"
+    },
+    {
+      "id":5,
+      "item_link":"/AviyonikTestSistemleri",
+      "item_img":"../../assets/images/index/FCM9130.jpg",
+      "item_tag":"Aviyonik Test Sistemleri",
+      "item_title":"Airbus FCM9130 Series Flush Control Module Test System"
+    },
+    {
+      "id":6,
+      "item_link":"/SimulatorSistemleri",
+      "item_img":"../../assets/images/index/Helsim.jpg",
+      "item_tag":"Simülatör Sistemleri",
+      "item_title":"HELSİM Güç Dağıtım Sistemi ve Köprü Donanım ve Yazılımları"
+    }
+  ],
+  "references":[
+    {
+      "id":1,
+      "item_img":"../../assets/images/index/Referans/ard.png",
+      "item_title":"ARD"
+    },
+    {
+      "id":2,
+      "item_img":"../../assets/images/index/Referans/aselsan.png",
+      "item_title":"ASELSAN A.Ş."
+    },
+    {
+      "id":3,
+      "item_img":"../../assets/images/index/Referans/ayyaz.png",
+      "item_title":"AY YAZILIM"
+    },
+    {
+      "id":4,
+      "item_img":"../../assets/images/index/Referans/bosch.png",
+      "item_title":"BOSCH"
+    },
+    {
+      "id":5,
+      "item_img":"../../assets/images/index/Referans/chicago.png",
+      "item_title":"CHICAGO BULLS"
+    },
+    {
+      "id":6,
+      "item_img":"../../assets/images/index/Referans/dynamic.png",
+      "item_title":"DYNAMIC"
+    },
+    {
+      "id":7,
+      "item_img":"../../assets/images/index/Referans/emekboru.png",
+      "item_title":"EMEK BORU MAKiNA SANAYi VE TiCARET A.Ş."
+    },
+    {
+      "id":8,
+      "item_img":"../../assets/images/index/Referans/genkur.png",
+      "item_title":"TÜRK SiLAHLI KUVVETLERi GENELKURMAY BAŞKANLIĞI"
+    },
+    {
+      "id":9,
+      "item_img":"../../assets/images/index/Referans/ghf.png",
+      "item_title":"GEOWF"
+    },
+    {
+      "id":10,
+      "item_img":"../../assets/images/index/Referans/hacettepe.png",
+      "item_title":"HACETTEPE ÜNiVERSiTESi"
+    },
+    {
+      "id":11,
+      "item_img":"../../assets/images/index/Referans/havelsan.png",
+      "item_title":"HAVELSAN A.Ş."
+    },
+    {
+      "id":12,
+      "item_img":"../../assets/images/index/Referans/hit.png",
+      "item_title":"HIGH INTENSITY TRAINING CENTERS"
+    },
+    {
+      "id":13,
+      "item_img":"../../assets/images/index/Referans/kho.png",
+      "item_title":"KARA HARP OKULU"
+    },
+    {
+      "id":14,
+      "item_img":"../../assets/images/index/Referans/kktc.png",
+      "item_title":"KUZEY KIBRIS ATLETiK FEDERASYONU"
+    },
+    {
+      "id":15,
+      "item_img":"../../assets/images/index/Referans/nurol.png",
+      "item_title":"NUROL MAKiNA VE SANAYi A.Ş."
+    },
+    {
+      "id":16,
+      "item_img":"../../assets/images/index/Referans/park logo.png",
+      "item_title":"PARK KENT MOBiLYALARI iNŞ. PAZ. SAN. VE TiC. A.Ş."
+    },
+    {
+      "id":17,
+      "item_img":"../../assets/images/index/Referans/proted.png",
+      "item_title":"PROTED PROSTHETICS & ORTHOTICS"
+    },
+    {
+      "id":18,
+      "item_img":"../../assets/images/index/Referans/halter.png",
+      "item_title":"TÜRKiYE HALTER FEDERASYONU"
+    },
+    {
+      "id":19,
+      "item_img":"../../assets/images/index/Referans/snk.png",
+      "item_title":"STM SAVUNMA TEKNOLOJiLERi MÜHENDiSLiK VE TiCARET A.Ş."
+    },
+    {
+      "id":20,
+      "item_img":"../../assets/images/index/Referans/stm.png",
+      "item_title":"ORTA DOĞU TEKNiK ÜNiVERSiTESi"
+    },
+    {
+      "id":21,
+      "item_img":"../../assets/images/index/Referans/tai.png",
+      "item_title":"TÜRK HAVACILIK UZAY SANAYi"
+    },
+    {
+      "id":22,
+      "item_img":"../../assets/images/index/Referans/tarti.png",
+      "item_title":"TARTI"
+    },
+    {
+      "id":23,
+      "item_img":"../../assets/images/index/Referans/tbf.png",
+      "item_title":"TÜRKiYE BASKETBOL FEDERASYONU"
+    },
+    {
+      "id":24,
+      "item_img":"../../assets/images/index/Referans/tdk.png",
+      "item_title":"TÜRK DENiZ KUVVETLERi"
+    },
+    {
+      "id":25,
+      "item_img":"../../assets/images/index/Referans/tff.png",
+      "item_title":"TÜRKiYE FUTBOL FEDERASYONU"
+    },
+    {
+      "id":26,
+      "item_img":"../../assets/images/index/Referans/thy.png",
+      "item_title":"TURKISH TECHNIC"
+    },
+    {
+      "id":27,
+      "item_img":"../../assets/images/index/Referans/tof.png",
+      "item_title":"TÜRKiYE OKÇULUK FEDERASYONU"
+    },
+    {
+      "id":28,
+      "item_img":"../../assets/images/index/Referans/tvf.png",
+      "item_title":"TÜRKiYE VOLEYBOL FEDERASYONU"
+    },
+    {
+      "id":29,
+      "item_img":"../../assets/images/index/Referans/ucla.png",
+      "item_title":"UCLA"
+    },
+    {
+      "id":30,
+      "item_img":"../../assets/images/index/Referans/wingate.png",
+      "item_title":"מכון וינגייט WINGATE INSTITUTE"
+    }
   ]
 }

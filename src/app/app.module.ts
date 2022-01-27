@@ -10,6 +10,7 @@ import { ContentComponent } from './content/content.component';
 import { IletisimComponent } from './iletisim/iletisim.component';
 import { IndexComponent } from './index/index.component';
 import { HttpClientModule } from '@angular/common/http';
+import { YeteneklerimizCozumlerimizComponent } from './yeteneklerimiz-cozumlerimiz/yeteneklerimiz-cozumlerimiz.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     ContentComponent,
     IletisimComponent,
-    IndexComponent
+    IndexComponent,
+    YeteneklerimizCozumlerimizComponent
   ],
   imports: [
     BrowserModule,
