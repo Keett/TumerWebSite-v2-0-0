@@ -1,5 +1,4 @@
-import { DOCUMENT } from '@angular/common';
-import { Component, Inject, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, Inject, OnInit } from '@angular/core';
 import { AboutService } from '../services/about.service';
 import { CalismaAlanlariService } from '../services/calisma-alanlari.service';
 import { ReferenceService } from '../services/reference.service';
@@ -40,4 +39,7 @@ export class IndexComponent implements OnInit {
       this.references = data
     });
   }
+
 }
+
+

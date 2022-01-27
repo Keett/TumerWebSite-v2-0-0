@@ -36,7 +36,9 @@
             "scripts": [
               "node_modules/@popperjs/core/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/jquery/dist/jquery.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jarallax/dist/jarallax-video.min.js",
+              "node_modules/jarallax/dist/jarallax.min.js"
             ]
           },
           "configurations": {

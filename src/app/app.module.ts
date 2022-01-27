@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { OffCanvasComponent } from './off-canvas/off-canvas.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContentComponent } from './content/content.component';
 import { IletisimComponent } from './iletisim/iletisim.component';
 import { IndexComponent } from './index/index.component';
 import { HttpClientModule } from '@angular/common/http';
 import { YeteneklerimizCozumlerimizComponent } from './yeteneklerimiz-cozumlerimiz/yeteneklerimiz-cozumlerimiz.component';
+import { PageHeadComponent } from './page-head/page-head.component';
 
 @NgModule({
   declarations: [
@@ -18,10 +18,10 @@ import { YeteneklerimizCozumlerimizComponent } from './yeteneklerimiz-cozumlerim
     HeaderComponent,
     OffCanvasComponent,
     FooterComponent,
-    ContentComponent,
     IletisimComponent,
     IndexComponent,
-    YeteneklerimizCozumlerimizComponent
+    YeteneklerimizCozumlerimizComponent,
+    PageHeadComponent
   ],
   imports: [
     BrowserModule,
